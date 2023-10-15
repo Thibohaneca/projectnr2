@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<!---->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--Titel van je webbrowser-->
+<title>Contact | Driespan</title>
+<link rel="stylesheet" href="CSS/gp.css">
+</head>
+<body>
+    <header>
+        <div id="#banner">
+            <a href="https://www.driespanwingene.be/" target="_blank">
+            <img src="IMG/logo driespan.png" alt="logo" />
+        </div>
+        <!--een navigatie maken aan de hand van een nav-element-->
+        <nav>
+            <div class="nav-item"><a href="index.html">Home</a></div>
+            <div class="nav-item"><a href="aboutus.html">About us</a></div>
+            <div class="nav-item"><a href="interview.html">Interview</a></div>
+            <div class="nav-item"><a href="Our schools.html">Our Schools</a></div>
+            <div class="nav-item"><a href="pers.html">Press</a></div>
+            <div class="nav-item"><a class="active" href="contact.html">Contact</a></div>  
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+    
+    <form action="mailto:driespan.wingene@3span.be" method="POST" enctype="text/plain">
+        <label for="naam">Name:</label>
+        <input type="text" id="naam" name="naam" required><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="bericht">Message:</label><br>
+        <textarea id="bericht" name="bericht" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Recover">
+    </form>
+
+
+
+
+
+
+    </main>
+    <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.3816201105624!2d3.300235076155494!3d51.08296434162163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c344522bb7708f%3A0x2d445f9d9f9e4080!2sBeernemsteenweg%20117%2C%208750%20Wingene%2C%20Belgi%C3%AB!5e0!3m2!1snl!2suk!4v1695713627496!5m2!1snl!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact details</h2>
+            <p>Address: BeernemSteenweg 117, 8750, Wingene</p>
+            <p>Phone number: 051 65 88 41</p>
+            <p>Email: <a href="mailto:driespan.wingene@3span.be">driespan.wingene@3span.be</a> </p> 
+            <!--via de mailto: kunnen we direct naar dit email-adres gaat en direct beginnen met een email te schrijven. Dit doet hij aan de hand van outlook te openen.-->
+            
+    
+        </section>
+    </footer>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
